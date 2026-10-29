@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Veri seti ve eğitilmiş modeller repoya eklenmez
+data/*
+!data/README.md
+models/*.pt
+!models/.gitkeep
+models/*.pt
+!models/.gitkeeph
+outputs/
