@@ -14,7 +14,16 @@ Proje iki aşamadan oluşur:
 
 > ⚠️ Bu proje araştırma/eğitim amaçlıdır ve **tıbbi teşhis aracı değildir**. Klinik kullanım için onaylı (ör. CE/FDA) bir süreç, büyük ve çeşitli veri ile bağımsız doğrulama gerekir.
 
-## Kurulum
+## Google Colab ile hızlı başlangıç (önerilen)
+
+GPU gerektiren eğitimi ücretsiz olarak Colab'da yapabilirsiniz. `colab_egitim.ipynb` defteri kodu ve MIAS veri setini indirir, modeli eğitir, test eder, kendi görüntünüzle denemenizi sağlar ve web uygulamasını açar.
+
+[![Colab'da aç](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makifykaya/Deneme/blob/claude/breast-cancer-classification-app-pwhehx/colab_egitim.ipynb)
+
+Bağlantı açılmazsa: Colab'da **Dosya → Not defteri aç → GitHub** sekmesine `makifykaya/Deneme` yazın ve `colab_egitim.ipynb` dosyasını seçin.
+Ardından **Çalışma zamanı → Çalışma zamanı türünü değiştir → T4 GPU** ve **Tümünü çalıştır**.
+
+## Kurulum (kendi bilgisayarınızda)
 
 ```bash
 python -m venv .venv
